@@ -18,21 +18,11 @@ export default async function Page({
 
   const data = await fetch(`https://ticketmaster-docs.vercel.app/data`);
   features = await data.json();
-  const filteredFeatures = features.data.filter((x) => {
+  const filteredFeatures = features.data.filter((x: any) => {
     return x.id === currentID;
   });
   const feature = filteredFeatures[0];
-  // const hmm = await test.json();
 
-  // let rip = hmm.replace(
-  //   /(['"])?([a-zA-Z0-9_]+)(['"])?:([^\/])/g,
-  //   '"$2":$4'
-  // );
-  // console.log(rip);
-  // hmm.map((x) => console.log(x));
-
-  // console.log(test);
-  // const session = await redis.get("user_1_session");
   return (
     <div>
       {/* @ts-expect-error Server Component */}

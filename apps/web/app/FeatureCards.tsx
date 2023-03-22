@@ -11,7 +11,7 @@ async function FeatureCards() {
   const data = await fetch(`https://ticketmaster-docs.vercel.app/data`);
   features = await data.json();
 
-  const filteredFeatures = features.data.filter((x) => {
+  const filteredFeatures = features.data.filter((x: any) => {
     return x.id !== currentID;
   });
 
