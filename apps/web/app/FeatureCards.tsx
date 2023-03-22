@@ -8,7 +8,9 @@ async function FeatureCards() {
   let features: any = "";
   const currentID = await get("currentHeader");
 
-  const data = await fetch(`https://ticketmaster-docs.vercel.app/data`);
+  const data = await fetch(`https://ticketmaster-docs.vercel.app/data`, {
+    next: { revalidate: 360 },
+  });
   features = await data.json();
 
   const filteredFeatures = features.data.filter((x: any) => {

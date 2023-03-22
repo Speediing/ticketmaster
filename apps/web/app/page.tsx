@@ -4,7 +4,7 @@ import ButtonArray from "./ButtonArray";
 import FeatureCards from "./FeatureCards";
 import InfoHeader from "./InfoHeader";
 export const runtime = "experimental-edge";
-export const revalidate = 0;
+
 import { get } from "@vercel/edge-config";
 export default async function Page({
   params,
@@ -16,7 +16,9 @@ export default async function Page({
   let features: any = "";
   const currentID = await get("currentHeader");
 
-  const data = await fetch(`https://ticketmaster-docs.vercel.app/data`);
+  const data = await fetch(`https://ticketmaster-docs.vercel.app/data`, {
+    next: { revalidate: 360 },
+  });
   features = await data.json();
   const filteredFeatures = features.data.filter((x: any) => {
     return x.id === currentID;

@@ -1,21 +1,24 @@
 export default function Head() {
   return (
     <>
-      <title>Intuit®: Official Site | Powering Prosperity</title>
+      <title>
+        Tickets for concerts, theatre, football, family days out. Official
+        Ticketmaster Site
+      </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta
         property="og:title"
-        content="Intuit®: Official Site | Powering Prosperity"
+        content="Tickets for concerts, theatre, football, family days out. Official Ticketmaster Site"
       />
       <meta
         property="og:description"
-        content="See how Intuit products can work for you by joining the over 100 million people already using TurboTax, Credit Karma, QuickBooks, and Mailchimp to power their prosperity."
+        content="Ticketmaster: All your entertainment needs under one virtual roof with tickets for theatre, concerts, sport, family events, clubs and more."
       />
       <meta property="og:image" content="/api/og" />
 
       <link
         rel="shortcut icon"
-        href="https://www.intuit.com/etc/designs/harmony/images/favicon/icom/favicon.ico"
+        href="https://uk.tmconst.com/production-9-409-0-5206500/images/favicon.ico"
       />
     </>
   );
