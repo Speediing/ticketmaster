@@ -6,7 +6,7 @@ export async function GET() {
       id: "1",
       category: "Festival",
       title: "Download 20",
-      description: "Bring Me The Horizon, Metallica, Slipknot and more",
+      description: "Bring Me The Horizon, Metallica, Slipknot and more!",
       smallImage:
         "https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/cf5e879b-5af3-4b73-fe88-407381f17600/public",
       largeImage:
