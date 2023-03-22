@@ -10,18 +10,18 @@ async function ButtonArray() {
 
   const buttonArrayReversed = await get("buttonArrayReversed");
   return (
-    <div className="flex flex-row gap-4 mt-8">
+    <div className="flex flex-row gap-4 mt-2 mb-10">
       {buttonArrayReversed[country] && (
-        <button className="bg-white h-[50px] rounded-sm text-black px-4">
-          File with TurboTax
+        <button className="bg-[#0369d8] h-[50px] rounded-sm text-white px-4">
+          Find Tickets
         </button>
       )}
-      <button className="bg-white h-[50px] rounded-sm text-black px-4">
+      <button className="bg-[#0369d8] h-[50px] rounded-sm text-white px-4">
         Save on Quickbooks
       </button>
       {!buttonArrayReversed[country] && (
-        <button className="bg-white h-[50px] rounded-sm text-black px-4">
-          File with TurboTax
+        <button className="bg-[#0369d8] h-[50px] rounded-sm text-white px-4">
+          Find Tickets
         </button>
       )}
     </div>
