@@ -19,8 +19,7 @@
     "ui": "workspace:*",
     "statsig-node": "^5.1.0",
     "statsig-react": "^1.21.1",
-    "statsig-node-vercel": "^0.0.3",
-    "@vercel/redis": "^0.1.0-canary.1"
+    "statsig-node-vercel": "^0.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
