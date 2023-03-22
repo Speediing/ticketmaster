@@ -4,7 +4,7 @@ import ButtonArray from "./ButtonArray";
 import FeatureCards from "./FeatureCards";
 import InfoHeader from "./InfoHeader";
 export const runtime = "experimental-edge";
-
+export const revalidate = 0;
 import { get } from "@vercel/edge-config";
 export default async function Page({
   params,
