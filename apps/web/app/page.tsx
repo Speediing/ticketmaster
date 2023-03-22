@@ -3,10 +3,6 @@ import { Button } from "ui";
 import ButtonArray from "./ButtonArray";
 import FeatureCards from "./FeatureCards";
 import InfoHeader from "./InfoHeader";
-import left from "./leftimg.png";
-import right from "./rightimg.png";
-import redis from "@vercel/redis";
-import { headers } from "next/headers";
 export const runtime = "experimental-edge";
 export const revalidate = 0;
 import { get } from "@vercel/edge-config";
@@ -17,17 +13,11 @@ export default async function Page({
   params: { slug: string };
   searchParams?: { [key: string]: string | string[] | undefined };
 }) {
-  const headersList = headers();
   let features: any = "";
   const currentID = await get("currentHeader");
 
-  if (headersList.get("host") === "localhost:3000") {
-    const data = await fetch(`http://${headersList.get("host")}/data`);
-    features = await data.json();
-  } else {
-    const data = await fetch(`https://${headersList.get("host")}/data`);
-    features = await data.json();
-  }
+  const data = await fetch(`https://ticketmaster-docs.vercel.app/data`);
+  features = await data.json();
   const filteredFeatures = features.data.filter((x) => {
     return x.id === currentID;
   });
