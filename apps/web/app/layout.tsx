@@ -20,7 +20,7 @@ export default function RootLayout({ children }: any) {
     <html lang="en">
       <head />
       <body className={`${roboto.className} text-white`}>
-        <header className="font-light bg-[#1f262d]  h-[44px]">
+        <header className="font-light bg-[#1f262d]  h-[44px] min-h-[44px]">
           <div className="flex flex-row justify-between h-full">
             <div className="flex flex-row justify-start h-full gap-6 mx-10 text-sm text-white xl:text-base">
               <div className="flex flex-row gap-1">
