@@ -15,7 +15,7 @@ export default async function Page({
 }) {
   let features: any = "";
   const currentID = await get("currentHeader");
-
+  console.log(currentID);
   const data = await fetch(`https://ticketmaster-docs.vercel.app/data`, {
     next: { revalidate: 60 },
   });
