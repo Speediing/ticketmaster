@@ -46,6 +46,7 @@ export default async function Page({
             alt=""
             src={feature.largeImage}
             layout="fill"
+            blurDataURL={feature.smallImage}
             objectFit="cover"
             className="opacity-50 z-1"
           />
