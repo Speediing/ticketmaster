@@ -16,7 +16,7 @@ export async function GET() {
       id: "2",
       category: "Pop",
       title: "Beyonce",
-      description: "Touring the UK this summer!",
+      description: "Touring the UK this summer",
       smallImage:
         "https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/c3147546-88ee-46f5-22d1-2262de25f300/public",
       largeImage:
