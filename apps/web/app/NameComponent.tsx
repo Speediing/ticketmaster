@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { headers } from "next/headers";
 import { get } from "@vercel/edge-config";
 const returnName = async () => {
-  await new Promise((r) => setTimeout(r, 3000));
+  await new Promise((r) => setTimeout(r, 500));
   return "My Account";
 };
 
