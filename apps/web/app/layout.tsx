@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import { Khula } from "@next/font/google";
 import { footerItems } from "ui";
 import { AnalyticsWrapper } from "./Analytics";
-
+export const dynamic = "force-dynamic";
 import { headers } from "next/headers";
 import Image from "next/image";
 const roboto = Khula({
