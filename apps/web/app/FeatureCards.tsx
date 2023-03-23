@@ -28,6 +28,7 @@ async function FeatureCards() {
                 height={440}
                 className={"rounded-md"}
                 alt=""
+                blurDataURL={x.smallImage}
                 src={x.smallImage}
               />
               <p
