@@ -15,21 +15,19 @@ export default async function Page({
 }) {
   let features: any = "";
   let currentID = "";
-  try {
-    const readSingle = await fetch(
-      "https://edge-config.vercel.com/ecfg_8wahyb0j3f067kj94bdflxixqrwb?token=7fc1a75f-ed9d-4ce7-92e9-61a7d6da159b",
-      { cache: "no-store" }
-    );
 
-    const result = await readSingle.json();
-    currentID = result.items.currentHeader;
-  } catch (error) {
-    console.log(error);
-  }
-  console.log(currentID);
+  const readSingle = await fetch(
+    "https://edge-config.vercel.com/ecfg_8wahyb0j3f067kj94bdflxixqrwb?token=7fc1a75f-ed9d-4ce7-92e9-61a7d6da159b",
+    { cache: "no-store" }
+  );
+
+  const result = await readSingle.json();
+  currentID = result.items.currentHeader;
+
   const data = await fetch(`https://ticketmaster-docs.vercel.app/data`, {
     next: { revalidate: 60 },
   });
+
   features = await data.json();
   const filteredFeatures = features.data.filter((x: any) => {
     return x.id === currentID;
