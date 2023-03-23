@@ -46,25 +46,22 @@ export default async function OG() {
               </div>
               <img
                 tw="w-[70px] h-[70px] mt-22"
-                src="https://proconnect.intuit.com/community/image/serverpage/image-id/1944i343FA2FDD6F1313B/image-size/large/is-moderation-mode/true?v=v2&px=999"
+                src="https://theme.zdassets.com/theme_assets/2359162/f8a018421ecb7c742f22fba10f5306dd53a9b454.png"
               />
             </div>
-            <h2 tw="text-3xl pt-6 font-thin">Intuit</h2>
+            <h2 tw="text-3xl pt-6 font-thin">Ticketmaster</h2>
             <h2 style={{ fontFamily: "RobotoBold" }} tw=" text-6xl font-bold">
-              Innovating to power financial confidence for millions
+              Tickets for concerts, theatre, football, family days out
             </h2>
-            <h2 tw="text-3xl font-thin">
-              Your complete financial picture on a single platform
-            </h2>
+            {/* <h2 tw="text-3xl font-thin">
+              All your entertainment needs under one virtual roof with tickets
+              for theatre, concerts, sport, family events, clubs and more.
+            </h2> */}
           </div>
-          <div tw="flex flex-row justify-between mx-10 mb-[-150px]">
+          <div tw="flex flex-row justify-between mx-10 mb-[-300px]">
             <img
-              tw="w-[50%] "
-              src="https://images.ctfassets.net/6zivncwxby0i/4MX2yyavPOFCSWILrT3w1w/ba65591d7c402bd670bb7ff8e6f68a90/Tim_Couch_Claimed_Tax_Refund.png"
-            />
-            <img
-              tw="w-[50%] "
-              src="https://images.ctfassets.net/6zivncwxby0i/67LspmdgRRhgApDInMCtvq/c2045ce16686de643e53d20a7d408037/Kahrim_Tax_Expert_Cards.png"
+              tw="w-[100%] "
+              src="https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/c3147546-88ee-46f5-22d1-2262de25f300/public"
             />
           </div>
         </div>
