@@ -5,6 +5,7 @@ import { AnalyticsWrapper } from "./Analytics";
 export const dynamic = "force-dynamic";
 import { headers } from "next/headers";
 import Image from "next/image";
+import NameComponentContainer from "./NameComponent";
 const roboto = Khula({
   weight: ["400", "700", "600", "800"],
   subsets: ["latin"],
@@ -14,6 +15,7 @@ const roboto = Khula({
 export default function RootLayout({ children }: any) {
   const headersList = headers();
   const ip = headersList.get("x-real-ip");
+
   return (
     <html lang="en">
       <head />
@@ -99,13 +101,8 @@ export default function RootLayout({ children }: any) {
               </div>
             </div>
           </div>
-          <div className="flex flex-row text-lg font-semibold">
-            <div className="flex flex-row ml-3">
-              <div className="flex flex-col justify-center ml-2 cursor-pointer">
-                Sign in/Register
-              </div>
-            </div>
-          </div>
+          {/* @ts-expect-error Server Component */}
+          <NameComponentContainer />
         </div>
         <AnalyticsWrapper />
         <div>{children}</div>
