@@ -27,7 +27,7 @@ export async function GET() {
       id: "3",
       category: "Audio visual experience",
       title: "BBC Earth Experience",
-      description: "2 weeks to go!",
+      description: "2 weeks to go!!!",
       smallImage:
         "https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/d563f066-9660-41c5-cc7f-5abf3d5ba900/public",
       largeImage:
