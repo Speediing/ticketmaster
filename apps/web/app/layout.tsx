@@ -38,7 +38,7 @@ export default function RootLayout({ children }: any) {
                 </a>
               </div>
               <a className="flex flex-col justify-center h-full mt-0.5 text-center align-bottom">
-                All of United Kingdom
+                All of USA
               </a>
             </div>
             <div className="flex flex-row justify-start h-full gap-6 text-sm text-white xl:text-base">
