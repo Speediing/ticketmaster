@@ -1,10 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>
-        Tickets for concerts, theatre, football, family days out. Official
-        Ticketmaster Site
-      </title>
+      <title>Lowes</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta property="og:title" content="Lowes" />
       <meta property="og:description" content="Lowes" />
