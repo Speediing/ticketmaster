@@ -24,7 +24,7 @@ export default async function Page({
   const result = await readSingle.json();
   currentID = result.items.currentHeader;
 
-  const data = await fetch(`ticketmaster-docs-virid.vercel.app/data`, {
+  const data = await fetch(`https://ticketmaster-docs-virid.vercel.app/data`, {
     next: { revalidate: 60 },
   });
 

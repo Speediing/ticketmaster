@@ -8,9 +8,9 @@ export async function GET() {
       title: "Download 20",
       description: "Bring Me The Horizon, Metallica, Slipknot and more",
       smallImage:
-        "https://mobileimages.lowes.com/marketingimages/79ccd62b-513b-4ebb-94ce-dac64ac1af7f/hp-fathers-day-featured-cat.png?im=Scale,width=1,height=1",
+        "https://mobileimages.lowes.com/marketingimages/581e18db-3c0c-4d61-824f-d441b8c9eaa3/hp-build-it-forward-pre-premiere-dt.png?im=Resize,width=468&fmt=webp",
       largeImage:
-        "https://mobileimages.lowes.com/marketingimages/79ccd62b-513b-4ebb-94ce-dac64ac1af7f/hp-fathers-day-featured-cat.png?im=Scale,width=1,height=1",
+        "https://mobileimages.lowes.com/marketingimages/581e18db-3c0c-4d61-824f-d441b8c9eaa3/hp-build-it-forward-pre-premiere-dt.png?im=Resize,width=468&fmt=webp",
     },
     {
       id: "2",
@@ -18,9 +18,9 @@ export async function GET() {
       title: "Beyonce",
       description: "Touring the UK this summer!",
       smallImage:
-        "https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/c3147546-88ee-46f5-22d1-2262de25f300/public",
+        "https://mobileimages.lowes.com/marketingimages/32b60aa4-a947-4814-8553-c581d8f25054/hp-free-basic-carpet-install-dt.png?im=Resize,width=468&fmt=webp",
       largeImage:
-        "https://uk.tmconst.com/ccp-salesforce-images/UK/Beyonce23_0102_1440x450.jpg?auto=webp",
+        "https://mobileimages.lowes.com/marketingimages/32b60aa4-a947-4814-8553-c581d8f25054/hp-free-basic-carpet-install-dt.png?im=Resize,width=468&fmt=webp",
     },
 
     {
@@ -29,9 +29,9 @@ export async function GET() {
       title: "BBC Earth Experience",
       description: "2 weeks to go!",
       smallImage:
-        "https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/d563f066-9660-41c5-cc7f-5abf3d5ba900/public",
+        "https://mobileimages.lowes.com/marketingimages/1e1e4664-a82e-42da-befe-811448479599/hp-weekending-at-lowes-events-3col-dt.png?im=Resize,width=468&fmt=webp",
       largeImage:
-        "https://uk.tmconst.com/ccp-salesforce-images/UK/_1440x450BBCEarth.png?auto=webp",
+        "https://mobileimages.lowes.com/marketingimages/1e1e4664-a82e-42da-befe-811448479599/hp-weekending-at-lowes-events-3col-dt.png?im=Resize,width=468&fmt=webp",
     },
     {
       id: "4",
@@ -39,9 +39,9 @@ export async function GET() {
       title: "Harry Potter and the Cursed Child",
       description: "Exclusive upgrade and new dates",
       smallImage:
-        "https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/2a91d2bd-eee0-49a2-e2e9-9e42b5836000/public",
+        "https://mobileimages.lowes.com/marketingimages/d9cc2f96-ced0-43db-9976-7d98a4ebd6a1/hp-craftsman-days-promo-dt.png?im=Resize,width=351&fmt=webp",
       largeImage:
-        "https://uk.tmconst.com/ccp-salesforce-images/UK/HPCC_MARCH_1440x450.jpg?auto=webp",
+        "https://mobileimages.lowes.com/marketingimages/d9cc2f96-ced0-43db-9976-7d98a4ebd6a1/hp-craftsman-days-promo-dt.png?im=Resize,width=351&fmt=webp",
     },
     {
       id: "5",
@@ -49,9 +49,9 @@ export async function GET() {
       title: "MLB World Tour: London Series",
       description: "100 days to go",
       smallImage:
-        "https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/d73a0fdc-dad5-4a70-e96c-aeb9ef99da00/big",
+        "https://mobileimages.lowes.com/marketingimages/77890178-afc1-4bb2-b1c2-b3355a8c6e52/hp-ego-days-promo-dt.png?im=Resize,width=351&fmt=webp",
       largeImage:
-        "https://uk.tmconst.com/ccp-salesforce-images/UK/230317_MLB_1440.jpg?auto=webp",
+        "https://mobileimages.lowes.com/marketingimages/77890178-afc1-4bb2-b1c2-b3355a8c6e52/hp-ego-days-promo-dt.png?im=Resize,width=351&fmt=webp",
     },
   ];
   return NextResponse.json({ data: features });
