@@ -13,7 +13,7 @@ async function ButtonArray() {
     <div className="flex flex-row gap-4 mt-2 mb-10">
       {buttonArrayReversed[country] && (
         <button className="bg-[#0369d8] h-[50px] rounded-sm text-white px-4">
-          Find Tickets
+          Find More
         </button>
       )}
       {/* <button className="bg-[#0369d8] h-[50px] rounded-sm text-white px-4">
@@ -21,7 +21,7 @@ async function ButtonArray() {
       </button> */}
       {!buttonArrayReversed[country] && (
         <button className="bg-[#0369d8] h-[50px] rounded-sm text-white px-4">
-          Find Tickets
+          Find More
         </button>
       )}
     </div>
