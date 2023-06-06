@@ -8,9 +8,9 @@ export async function GET() {
       title: "Download 20",
       description: "Bring Me The Horizon, Metallica, Slipknot and more",
       smallImage:
-        "https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/cf5e879b-5af3-4b73-fe88-407381f17600/public",
+        "https://mobileimages.lowes.com/marketingimages/79ccd62b-513b-4ebb-94ce-dac64ac1af7f/hp-fathers-day-featured-cat.png?im=Scale,width=1,height=1",
       largeImage:
-        "https://uk.tmconst.com/ccp-salesforce-images/UK/Download23_1702_1440x450.jpg?auto=webp",
+        "https://mobileimages.lowes.com/marketingimages/79ccd62b-513b-4ebb-94ce-dac64ac1af7f/hp-fathers-day-featured-cat.png?im=Scale,width=1,height=1",
     },
     {
       id: "2",
